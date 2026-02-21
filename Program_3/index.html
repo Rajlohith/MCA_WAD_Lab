@@ -10,14 +10,15 @@
             background-color: lightblue; 
         }
     </style>
+    <script src="script.js" defer></script>
 </head>
-<body>
+<body class = "p-4">
 
     <center>
-        <h4>Registration Form</h4>
+        <h1>Registration Form</h1>
     </center>
 
-    <form id="registrationForm">
+    <form id="registrationForm" onsubmit="return submitForm(event)">
 
         <label>Name</label>
         <input type="text" id="Name" class="form-control">
@@ -60,8 +61,6 @@
         </center>
 
     </form>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
